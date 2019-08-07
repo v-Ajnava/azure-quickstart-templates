@@ -10,7 +10,7 @@
     },
     "eventhubSku": {
       "type": "string",
-      "allowedValues": ["Basic", "Standard"],
+      "allowedValues": ["Standard"],
       "defaultValue": "Standard",
       "metadata": {
         "description": "The messaging tier for service Bus namespace"
@@ -18,7 +18,6 @@
     },
     "skuCapacity": {
       "type": "int",
-      "allowedValues": [1, 2, 4],
       "defaultValue": 1,
       "metadata": {
         "description": "MessagingUnits for premium namespace"
